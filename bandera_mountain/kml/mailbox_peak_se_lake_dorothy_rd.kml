@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>road</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>SE Lake Dorothy Rd</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.6743019,47.4674922,0
+          -121.6742107,47.4674487,0
+          -121.6741195,47.4674215,0
+          -121.6739774,47.4674251,0
+          -121.6738728,47.4674432,0
+          -121.673744,47.4674541,0
+          -121.6735858,47.4674704,0
+          -121.6733846,47.4674741,0
+          -121.6733176,47.4674795,0
+          -121.673229,47.4674795,0
+          -121.6731298,47.4674849,0
+          -121.6730011,47.4674704,0
+          -121.6728965,47.4674795,0
+          -121.6727972,47.4674632,0
+          -121.6726953,47.467436,0
+          -121.6726068,47.4673888,0
+          -121.672537,47.4673181,0
+          -121.6725531,47.4672402,0
+          -121.6725558,47.4671731,0
+          -121.6726282,47.4671459,0
+          -121.6728294,47.4671005,0
+          -121.6729528,47.467077,0
+          -121.6731942,47.4670135,0
+          -121.6733337,47.4669319,0
+          -121.6734141,47.4668793,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

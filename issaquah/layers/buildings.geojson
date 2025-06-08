@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "buildings",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "High School", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -122.0285396, 47.5212985, 0.0 ], [ -122.0298915, 47.5212116, 0.0 ], [ -122.0297198, 47.5203131, 0.0 ], [ -122.0282178, 47.5204435, 0.0 ], [ -122.0285396, 47.5212985, 0.0 ] ] ] ] } },
+{ "type": "Feature", "properties": { "name": "Middle School", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -122.0282392, 47.5213854, 0.0 ], [ -122.0278315, 47.5203711, 0.0 ], [ -122.0272522, 47.520487, 0.0 ], [ -122.0275097, 47.5214289, 0.0 ], [ -122.0282392, 47.5213854, 0.0 ] ] ] ] } }
+]
+}

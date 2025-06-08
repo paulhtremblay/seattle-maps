@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "bridges",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "bridge", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.00379, 47.50793, 0.0 ], [ -122.00386, 47.50788, 0.0 ], [ -122.00398, 47.50781, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "bridge", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.00143, 47.50325, 0.0 ], [ -122.00145, 47.50323, 0.0 ], [ -122.0015013, 47.5032056, 0.0 ] ] ] } }
+]
+}

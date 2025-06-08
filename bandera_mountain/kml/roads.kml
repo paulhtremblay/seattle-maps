@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>roads</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>SE Homestead Valley Rd</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.6348162,47.4306998,0
+          -121.6342316,47.4308557,0
+          -121.6335824,47.4309611,0
+          -121.6329065,47.431099,0
+          -121.6324398,47.4311605,0
+          -121.6323218,47.4310734,0
+          -121.6319678,47.4307613,0
+          -121.631721,47.4305944,0
+          -121.6313401,47.4305546,0
+          -121.6309968,47.4305328,0
+          -121.6306589,47.4305726,0
+          -121.6305194,47.4306452,0
+          -121.6304067,47.4307578,0
+          -121.6304174,47.4309103,0
+          -121.6304657,47.4311677,0
+          -121.6306105,47.4314328,0
+          -121.6307285,47.4316578,0
+          -121.6308412,47.4318645,0
+          -121.6310451,47.4320024,0
+          -121.6313026,47.4320822,0
+          -121.6315761,47.4323473,0
+          -121.6317947,47.4326252,0
+          -121.6319624,47.4328698,0
+          -121.632134,47.4331674,0
+          -121.6322306,47.4335012,0
+          -121.6323647,47.4339039,0
+          -121.6325364,47.4341434,0
+          -121.6328207,47.4345173,0
+          -121.6330836,47.4348546,0
+          -121.633282,47.4349672,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

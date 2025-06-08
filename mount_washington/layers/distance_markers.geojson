@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "distance_markers",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "1", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.675009243199995, 47.439022176, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "2", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.687808409300004, 47.435573609499997, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "3", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.690847855100003, 47.427179720300003, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "4", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.697327485299994, 47.425663098699999, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "5", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.695362599600003, 47.424784256099997, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "6", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.692380318399998, 47.4312462006, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "7", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.684720683799995, 47.439034245899997, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "8", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.678805826200005, 47.441391656199997, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "730 ft", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6753387, 47.4417948, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": ".29 m", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.67845, 47.44217, 0.0 ] } }
+]
+}

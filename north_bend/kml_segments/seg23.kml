@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>seg23</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>seg23</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.7281724,47.4929013,0
+          -121.7281445,47.4931193,0
+          -121.7278282,47.4933828,0
+          -121.7273067,47.4937216,0
+          -121.7271516,47.4941027,0
+          -121.7273166,47.4946711,0
+          -121.7272091,47.4950354,0
+          -121.7265372,47.4958765,0
+          -121.72575,47.4965816,0
+          -121.7248102,47.4971416,0
+          -121.7241579,47.4976693,0
+          -121.7238789,47.4979503,0
+          -121.7230687,47.4981837,0
+          -121.7224968,47.4985422,0
+          -121.7218823,47.498796,0
+          -121.7213706,47.4991298,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

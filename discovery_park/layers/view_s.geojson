@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "view_s",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "VIEW S", "folders": "", "description": "", "altitude": 73.95, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -122.421297, 47.656825, 73.95 ] } },
+{ "type": "Feature", "properties": { "name": "VIEW S", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -122.4238054, 47.6576897, 0.0 ] } }
+]
+}

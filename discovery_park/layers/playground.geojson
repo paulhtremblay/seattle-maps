@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "playground",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "tennis courts", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -122.4048403, 47.6569981, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "playgrounds", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -122.4052909, 47.6564056, 0.0 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "mile_markers",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "1", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.57413, 47.4214, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "2", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.55792, 47.41488, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "3", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.55296, 47.41934, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "4", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.55795, 47.41989, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "5", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.56346, 47.41787, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "6", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.57874, 47.42492, 0.0 ] } }
+]
+}

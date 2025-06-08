@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "little_si_miles",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "1", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.75436, 47.49841, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "2", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.75732, 47.50106, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "3", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.75495, 47.49197, 0.0 ] } }
+]
+}

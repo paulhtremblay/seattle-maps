@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "tenneriffe_bridges",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "bridge", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.711073, 47.4960645, 0.0 ], [ -121.7110354, 47.4960663, 0.0 ], [ -121.7109871, 47.4960555, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "bridge", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.7070711, 47.4943846, 0.0 ], [ -121.7069692, 47.4944335, 0.0 ], [ -121.7068539, 47.4944933, 0.0 ], [ -121.7067493, 47.494535, 0.0 ], [ -121.7066607, 47.494564, 0.0 ], [ -121.7066527, 47.4946075, 0.0 ], [ -121.7066554, 47.4946419, 0.0 ], [ -121.7066205, 47.4946854, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "bridge", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.7173031, 47.4963747, 0.0 ], [ -121.7172629, 47.4963638, 0.0 ], [ -121.7172173, 47.4963547, 0.0 ], [ -121.7171798, 47.496342, 0.0 ] ] ] } }
+]
+}

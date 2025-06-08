@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "views_points_east",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "view east", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6916765, 47.4325923, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "view east big", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6918746, 47.4291995, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "view east", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6942171, 47.4246767, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "view east big", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6956547, 47.4245679, 0.0 ] } }
+]
+}

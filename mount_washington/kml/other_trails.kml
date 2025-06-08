@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>trails</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-2000-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-2000-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-2000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-2000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-2000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Iron Horse Trail</name>
+      <styleUrl>#line-000000-2000-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.665223,47.438419,0
+          -121.667412,47.438709,0
+          -121.670809,47.440172,0
+          -121.674407,47.441438,0
+          -121.676031,47.441973,0
+          -121.67754,47.44226,0
+          -121.680544,47.442222,0
+          -121.683462,47.442309,0
+          -121.685093,47.442483,0
+          -121.687668,47.442425,0
+          -121.688784,47.442164,0
+          -121.690457,47.442222,0
+          -121.692989,47.44228,0
+          -121.695049,47.442164,0
+          -121.69698,47.441496,0
+          -121.698439,47.441148,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>trail</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.6898052,47.4325715,0
+          -121.6892554,47.4320909,0
+          -121.6880966,47.4316844,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>upper trail
+</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.6930471,47.428417,0
+          -121.6929827,47.4275315,0
+          -121.6929398,47.4272267,0
+          -121.692575,47.4271396,0
+          -121.6922102,47.4269944,0
+          -121.6920386,47.4269654,0
+          -121.691588,47.4268057,0
+          -121.6906164,47.4268314,0
+          -121.6900615,47.4269126,0
+          -121.6896997,47.4271831,0
+          -121.6894422,47.4275751,0
+          -121.6889487,47.4277347,0
+          -121.6883908,47.4278218,0
+          -121.6878543,47.4285041,0
+          -121.6874466,47.4295348,0
+          -121.6871677,47.4302606,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

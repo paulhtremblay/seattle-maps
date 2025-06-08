@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>streets</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>S Lander St
+</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.4008473,47.5790496,0
+          -122.401491,47.5790641,0
+          -122.4024351,47.5790931,0
+          -122.4028643,47.5790931,0
+          -122.4032505,47.5789194,0
+          -122.4037012,47.5787457,0
+          -122.4039801,47.5787891,0
+          -122.404023,47.579122,0
+          -122.404023,47.5796865,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>58th St
+</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.4067732,47.577843,0
+          -122.4066782,47.5793807,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>SW Admiral Way
+</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.3917758,47.5812055,0
+          -122.3939915,47.5793902,0
+          -122.3946082,47.5792514,0
+          -122.3992623,47.5794066,0
+          -122.3998654,47.579179,0
+          -122.4031055,47.5772973,0
+          -122.4036419,47.5771381,0
+          -122.4051654,47.5770946,0
+          -122.4057233,47.5770657,0
+          -122.4072683,47.5763709,0
+          -122.4077796,47.5761586,0
+          -122.4083697,47.5759414,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

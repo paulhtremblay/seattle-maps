@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "views_sw",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "sw", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.5570062, 47.4173744, 0.0 ], [ -121.5568989, 47.4171857, 0.0 ], [ -121.5568131, 47.4168953, 0.0 ], [ -121.5567917, 47.4165468, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "sw", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.5584277, 47.4200499, 0.0 ], [ -121.5580791, 47.4197594, 0.0 ], [ -121.557607, 47.419469, 0.0 ], [ -121.5573281, 47.4191931, 0.0 ], [ -121.5569848, 47.4187576, 0.0 ] ] ] } }
+]
+}

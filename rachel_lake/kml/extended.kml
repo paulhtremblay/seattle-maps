@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>extended</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>extended trail</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.329146,47.422783,0
+          -121.3291845,47.4228838,0
+          -121.3291845,47.4229854,0
+          -121.3291523,47.4230689,0
+          -121.3291362,47.4231705,0
+          -121.3292221,47.4232722,0
+          -121.3292927,47.4233406,0
+          -121.3293454,47.4234137,0
+          -121.3293861,47.4234504,0
+          -121.329372,47.4235429,0
+          -121.3293575,47.4236151,0
+          -121.3294704,47.4236952,0
+          -121.3296727,47.4237476,0
+          -121.3298081,47.4237848,0
+          -121.3300064,47.4238047,0
+          -121.330156,47.4238213,0
+          -121.3303923,47.423858,0
+          -121.3305691,47.4239021,0
+          -121.3306877,47.4238863,0
+          -121.3309709,47.4238674,0
+          -121.3310943,47.4238529,0
+          -121.3313229,47.4238735,0
+          -121.3314551,47.4238951,0
+          -121.3315717,47.4238456,0
+          -121.3316136,47.4238969,0
+          -121.3316328,47.4239305,0
+          -121.3316908,47.4239815,0
+          -121.3317576,47.4239203,0
+          -121.3318576,47.4238983,0
+          -121.3318639,47.4239417,0
+          -121.3319579,47.4239545,0
+          -121.3319963,47.4239073,0
+          -121.3320545,47.4238093,0
+          -121.3320783,47.4237463,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

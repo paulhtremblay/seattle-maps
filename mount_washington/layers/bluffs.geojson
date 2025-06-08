@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "bluffs",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "bluff", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6795847, 47.4385876, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "bluff", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.6772351, 47.4390593, 0.0 ] } },
+{ "type": "Feature", "properties": { "name": "bluff", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.676012, 47.4396181, 0.0 ] } }
+]
+}

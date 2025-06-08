@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>park bounary</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>park bounary
+</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -122.4175278,47.6695138,0
+              -122.4216986,47.6676456,0
+              -122.423021,47.6673752,0
+              -122.424446,47.6656316,0
+              -122.4265521,47.6645184,0
+              -122.4283425,47.6640226,0
+              -122.4303166,47.6632711,0
+              -122.432162,47.6628376,0
+              -122.4335352,47.6625774,0
+              -122.4345652,47.6624329,0
+              -122.4354664,47.6622017,0
+              -122.4359385,47.6619126,0
+              -122.4349157,47.6615298,0
+              -122.4266688,47.6581839,0
+              -122.4218623,47.6539924,0
+              -122.4207036,47.6533276,0
+              -122.4201457,47.652547,0
+              -122.4181716,47.6530963,0
+              -122.4183432,47.6540214,0
+              -122.4038807,47.6541081,0
+              -122.4038378,47.6607276,0
+              -122.4052969,47.6608721,0
+              -122.4056403,47.6624618,0
+              -122.4073998,47.6625774,0
+              -122.4089018,47.6628087,0
+              -122.4085585,47.6644272,0
+              -122.4094168,47.665092,0
+              -122.409331,47.6685312,0
+              -122.4173991,47.6684156,0
+              -122.4175278,47.6695138,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "rocks",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "rocks", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.6877255, 47.4355318, 0.0 ], [ -121.6878435, 47.4353939, 0.0 ], [ -121.6879508, 47.4352742, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "single rock in trail", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.6925853, 47.4311193, 0.0 ], [ -121.6925906, 47.4308857, 0.0 ] ] ] } },
+{ "type": "Feature", "properties": { "name": "scramble; rocks", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.6956517, 47.424663, 0.0 ], [ -121.6957536, 47.424565, 0.0 ], [ -121.6958287, 47.4245033, 0.0 ], [ -121.695913, 47.4244075, 0.0 ] ] ] } }
+]
+}

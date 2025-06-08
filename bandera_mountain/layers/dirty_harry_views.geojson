@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "dirty_harry_views",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "view S", "folders": "", "description": "", "altitude": 758.270874, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.613253, 47.433602, 758.270874 ] } },
+{ "type": "Feature", "properties": { "name": "view N", "folders": "", "description": "", "altitude": 727.023438, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.619869, 47.433221, 727.023438 ] } },
+{ "type": "Feature", "properties": { "name": "view", "folders": "", "description": "", "altitude": 698.283325, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.619122, 47.432151, 698.283325 ] } },
+{ "type": "Feature", "properties": { "name": "view", "folders": "", "description": "", "altitude": 713.255859, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.620454, 47.433186, 713.255859 ] } },
+{ "type": "Feature", "properties": { "name": "view", "folders": "", "description": "", "altitude": 621.435303, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "Point", "coordinates": [ -121.621584, 47.431636, 621.435303 ] } }
+]
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>trails</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Iron Horse Trail
+</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -121.665223,47.4384191,0
+          -121.6674116,47.4387094,0
+          -121.6708089,47.4401721,0
+          -121.6744068,47.4414379,0
+          -121.6760307,47.4419726,0
+          -121.67754,47.44226,0
+          -121.6805437,47.4422215,0
+          -121.683462,47.4423086,0
+          -121.6850928,47.4424828,0
+          -121.6876677,47.4424247,0
+          -121.6887835,47.4421635,0
+          -121.6904572,47.4422215,0
+          -121.6929892,47.4422796,0
+          -121.6950491,47.4421635,0
+          -121.6969803,47.4414959,0
+          -121.6984394,47.4411476,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

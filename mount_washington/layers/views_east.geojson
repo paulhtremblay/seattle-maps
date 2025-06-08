@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "views_east",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "view east", "folders": "", "description": "", "altitude": 0.0, "alt_mode": "", "time_begin": "", "time_end": "", "time_when": "" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -121.6954442, 47.4260042, 0.0 ], [ -121.6954228, 47.4256775, 0.0 ], [ -121.6954335, 47.4255178, 0.0 ], [ -121.695691, 47.4252856, 0.0 ], [ -121.695927, 47.425046, 0.0 ], [ -121.6960343, 47.4248355, 0.0 ], [ -121.6960987, 47.4244726, 0.0 ] ] ] } }
+]
+}

@@ -211,7 +211,10 @@ def view(path, out_path):
                 prev_point = None
                 for counter, point in enumerate(segment.points):
                     current_time, distance, time_bet, speed, elevation =  _get_info(point, prev_point)
-                    elevation_feet = elevation * 3.28084
+                    if elevation != None:
+                        elevation_feet = elevation * 3.28084
+                    else:
+                        elevation_feet = -1
                     if not start_time:
                         start_time = current_time
                     current_time_pacific = datetime.datetime(1900,1,1)

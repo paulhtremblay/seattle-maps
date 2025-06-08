@@ -87,7 +87,7 @@
       </Pair>
     </StyleMap>
     <Placemark>
-      <name>Summit</name>
+      <name>5240</name>
       <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
       <Point>
         <coordinates>
@@ -109,7 +109,16 @@
       <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
       <Point>
         <coordinates>
-          -121.639223,47.4624373,0
+          -121.639223,47.462437,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3780</name>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -121.5115524,47.4232503,0
         </coordinates>
       </Point>
     </Placemark>
